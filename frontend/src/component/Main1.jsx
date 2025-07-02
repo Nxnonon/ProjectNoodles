@@ -94,7 +94,7 @@ const Main1 = () => {
               <p className="flex justify-center items-center my-3.5 text-amber-50 text-xl">
                 ก๋วยเตี๋ยวหมูต้มยำรสเด็ด
               </p>
-              <p className="flex justify-center items-center text-amber-50 text-xl">
+              <p  className="flex justify-center items-center text-amber-50 text-xl">
                 50 บาท
               </p>
             </div>
@@ -102,7 +102,7 @@ const Main1 = () => {
         </div1>
       </div>
 
-      <div className="flex justify-end m-10">
+      <div className="flex justify-end p-10">
           <Link to="order" className="flex justify-center items-center text-shadow-lg/30 h-20 w-70 bg-stone-500 text-amber-50 text-3xl rounded-2xl shadow-lg shadow-black">สั่งก๋วยเตี๋ยว 🡆</Link>
       </div>
       <Outlet></Outlet>

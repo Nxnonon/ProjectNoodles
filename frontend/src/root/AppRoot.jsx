@@ -5,6 +5,7 @@ import Login from "../Page/Login";
 import Cart from "../Page/Cart";
 import History from "../Page/History";
 import Order from "../Page/Order";
+import Register from "../Page/Register";
 
 const router =  createBrowserRouter([{
     path:"/",
@@ -25,6 +26,10 @@ const router =  createBrowserRouter([{
 },{
     path:"order",
     element:<Order/>,
+    
+},{
+    path:"register",
+    element:<Register/>,
     
 }])
 
