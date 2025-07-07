@@ -1,6 +1,7 @@
 import React from 'react'
 import Napbar from '../component/Napbar'
 import Main1 from '../component/Main1'
+import Toto from './Toto'
 
 
 

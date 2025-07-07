@@ -18,7 +18,7 @@ const Login = () => {
               <input className='h-8 w-40 border-2 rounded-md text-amber-50 bg-stone-600 shadow-lg shadow-black' type="submit" value="Submit" />
             </form>
             <div className='my-15 text-center'>
-            <Link to='register' className=' text-2xl'> ลงทะเบียน </Link>
+            <Link to='/register' className=' text-2xl'> ลงทะเบียน </Link>
             </div>
           </div>
         </div>
